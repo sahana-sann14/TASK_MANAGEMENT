@@ -1,0 +1,156 @@
+body {
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-page {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  background-color: #ffffffdd;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.login-card h2 {
+  color: #333;
+}
+
+.form-control, .form-select {
+  border-radius: 50px !important;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+}
+
+.btn-primary {
+  background-color: #4e54c8;
+  border: none;
+}
+
+.btn-success {
+  background-color: #6c63ff;
+  border: none;
+}
+
+a {
+  color: #4e54c8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* Add this to your App.css */
+.chat-room {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body.bg-dark {
+  transition: background 0.3s ease;
+}
+
+.messages {
+  max-height: 400px;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+}
+
+.message {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #e6f2ff; /* This is a fallback if inline style fails */
+}
+
+.meeting-room {
+  border: 2px dashed #007bff;
+  border-radius: 15px;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #e6f0ff, #ffffff);
+}
+
+.meeting-button {
+  transition: all 0.3s ease-in-out;
+}
+
+.meeting-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #007bff;
+}
+
+.bg-primary {
+  border-radius: 20px 20px 0 20px;
+}
+
+.bg-secondary {
+  border-radius: 20px 20px 20px 0;
+}
+
+body {
+  background-color: #f0f2f5;
+}
+
+.chat-box {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+body.bg-dark {
+  background-color: #121212 !important;
+  color: #f1f1f1 !important;
+}
+.card.bg-dark {
+  background-color: #1e1e1e !important;
+  color: white;
+}
+input.form-control.bg-dark {
+  background-color: #333 !important;
+  color: white;
+}
+

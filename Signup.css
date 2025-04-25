@@ -1,0 +1,112 @@
+/* Signup Page Styling */
+.auth-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f0f4f8, #d9e8f6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  
+  .signup-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.8s ease;
+  }
+  
+  .signup-card img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px;
+    object-fit: contain;
+  }
+  
+  h3 {
+    text-align: center;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+  
+  .form-control {
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    padding: 12px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #519cec;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .form-select {
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    padding: 12px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #45a049;
+  }
+  
+  .link-btn {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .link-btn a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .auth-logo {
+    width: 80px;
+  }
+  
+  .link-btn a:hover {
+    text-decoration: underline;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
